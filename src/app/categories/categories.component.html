@@ -1,0 +1,5 @@
+<section class="categories_container" *ngFor="let content of categories[0] let i = index">
+  <mat-card (click)="navigateToQuiz(content.categoryId)">
+    <mat-card-content>{{content.categoryLabel}}</mat-card-content>
+  </mat-card>
+</section>

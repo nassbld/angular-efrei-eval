@@ -43,3 +43,6 @@ body {
 .input {
   @apply border border-violet-500 px-4 py-2 rounded mr-2;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
